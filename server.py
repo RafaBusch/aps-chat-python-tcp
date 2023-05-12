@@ -13,7 +13,7 @@ while not terminado:
     if mensagem == 'tt':
         terminado = True
     else:
-        print("Mensagem do servidor: ", mensagem)
+        print("Mensagem do cliente: ", mensagem)
     cliente.send(input('Mensagem do servidor: ').encode('utf-8'))
 
 cliente.close()
