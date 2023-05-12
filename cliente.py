@@ -13,6 +13,6 @@ while not terminado:
     if mensagem == 'tt':
         terminado = True
     else:
-        print("Mensagem do cliente: ", mensagem)
+        print("Mensagem do servidor: ", mensagem)
 
 cliente.close()
